@@ -10,6 +10,7 @@ import { ReactComponent as ShoppingCart } from './assets/winkelmandje.svg';
 function App() {
     const [messageValue, setMessageValue] = React.useState('');
     const [checkedTerms, toggleCheckedTerms] = React.useState(false);
+    const [clicked, toggleClicked] = React.useState(false);
 
     function handleClick() {
         console.log(`De knop is succesvol aangeklikt.`);
